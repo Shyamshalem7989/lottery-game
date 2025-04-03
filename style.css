@@ -1,0 +1,74 @@
+body {
+  background-image: url(lottery.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+h1 {
+  text-align: center;
+  color: rgb(244, 138, 62);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Lotterycontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  color: aliceblue;
+  background-color: rgb(244, 138, 62);
+  border: none;
+  border-radius: 5vb;
+  padding: 10px 30px;
+  cursor: pointer;
+  box-shadow: 0px 4px 0px 0px #963014;
+}
+button:hover {
+  background-color: rgb(206, 98, 21);
+}
+#lotteryboxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.box {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(0, 0, 0);
+  background-color: rgb(240, 240, 168);
+  padding: 0px 15px 0px 15px;
+  border-radius: 2vb;
+}
+.winningitem {
+  background-color: green;
+  color: white;
+}
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: green;
+  border-radius: 1vb;
+}
+.highlightedbox {
+  border: 5px solid rgb(255, 5, 5);
+}
